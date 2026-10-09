@@ -19,6 +19,7 @@
     -->
 
     <TextView
+        android:id="@+id/textViewPolecenie"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Wybierz kolory, których nie ma we fladze Polski."
