@@ -1,5 +1,7 @@
 package com.example.testofladze3pgrpiatek;
 
+import static android.view.View.INVISIBLE;
+
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
@@ -27,5 +29,9 @@ public class MainActivity extends AppCompatActivity {
     public void wybierzKolorOk(View view) {
         Toast.makeText(MainActivity.this, "To jest kolor flagi polskiej.",
                 Toast.LENGTH_SHORT).show();
+    }
+
+    public void wybierzKolor(View view) {
+        view.setVisibility(INVISIBLE);
     }
 }
